@@ -3,4 +3,4 @@ bucket_name="35wi0y48fkt3z3g59cwn25yzd73n4ctn"
 index_html_filepath="public/index.html"
 error_html_filepath="public/error.html"
 assets_path="public/assets"
-content_version=2
+content_version=3
