@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aracnum</title>
+    <title>Generative AI Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #output {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>How to get starting playing Arcanum<h1>
-    <img src="/assets/arcanum-box-art.jpg" />
-    <img src="/assets/screenshot.png" />
+    <h1>Generative AI Showcase</h1>
+    <p>Click the button to generate content:</p>
+    <button id="generateButton">Generate</button>
+    <div id="output"></div>
+
+    <script>
+        // Replace this function with your generative AI logic
+        function generateContent() {
+            // Your generative AI code goes here
+            // For example, you can use JavaScript to generate text or images
+            // and display the output on the page.
+            const generatedContent = "This is an example of generated content.";
+            document.getElementById("output").textContent = generatedContent;
+        }
+
+        document.getElementById("generateButton").addEventListener("click", generateContent);
+    </script>
 </body>
 </html>

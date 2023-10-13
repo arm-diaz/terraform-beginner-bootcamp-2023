@@ -23,7 +23,6 @@ provider "terratowns" {
 module "home_arcanum_hosting" {
   source = "./modules/terrahome_aws"
   user_uuid = var.teacherseat_user_uuid
-  bucket_name = var.bucket_name
   public_path = var.arcanum.public_path
   content_version = var.arcanum.content_version
 }
@@ -43,7 +42,6 @@ DESCRIPTION
 
 module "home_payday_hosting" {
   source = "./modules/terrahome_aws"
-  bucket_name = var.bucket_name
   user_uuid = var.teacherseat_user_uuid
   public_path = var.payday.public_path
   content_version = var.payday.content_version
