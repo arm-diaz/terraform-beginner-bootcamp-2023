@@ -28,12 +28,11 @@ module "home_arcanum_hosting" {
 }
 
 resource "terratowns_home" "home" {
-  name = "How to play Arcanum in 2023!"
+  name = "AI Revolution: Transforming Industries"
   description = <<DESCRIPTION
-Arcanum is a game from 2001 that shipped with alot of bugs.
-Modders have removed all the originals making this game really fun
-to play (despite that old look graphics). This is my guide that will
-show you how to play arcanum without spoiling the plot.
+Explore the dynamic world of artificial intelligence as we delve into its transformative influence on diverse industries. 
+From healthcare to finance, manufacturing to education, our blog uncovers the ways AI is reshaping the future. 
+Discover the innovations, the impact, and the potential of AI as it revolutionizes and redefines the way we work and live.
 DESCRIPTION
   domain_name = module.home_arcanum_hosting.domain_name
   town = "melomaniac-mansion"
@@ -48,11 +47,10 @@ module "home_payday_hosting" {
 }
 
 resource "terratowns_home" "home_payday" {
-  name = "Making your Payday Bar"
+  name = "Tech Portfolio: Shaping the Digital Future"
   description = <<DESCRIPTION
-Since I really like Payday candy bars but they cost so much to import
-into Canada, I decided I would see how I could my own Paydays bars,
-and if they are most cost effective.
+Welcome to my tech portfolio! Explore my skills, experiences, and projects, showcasing a passion for technology and innovation. 
+Join me on this journey through the digital realm as I shape the future, one code at a time.
 DESCRIPTION
   domain_name = module.home_payday_hosting.domain_name
   town = "melomaniac-mansion"

@@ -3,10 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payday</title>
+    <title>Tech Portfolio Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #202040; /* Dark blue */
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            background-color: #fff;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #202040; /* Dark blue */
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .skill {
+            background-color: #3498db; /* Light blue */
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+        }
+        .tech-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>Making my own payday bars</h1>
-    <img src="/assets/payday-box.jpg" width="300px" />
+    <header>
+        <h1>Tech Portfolio Resume</h1>
+    </header>
+    <main>
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>Highly motivated and skilled tech professional with a strong background in software development, web design, and system administration. Committed to delivering high-quality solutions and staying up-to-date with the latest industry trends and technologies.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li class="skill">Front-end Development</li>
+                <li class="skill">Back-end Development</li>
+                <li class="skill">Web Design</li>
+                <li class="skill">User Experience</li>
+                <li class="skill">JavaScript</li>
+                <li class="skill">Python</li>
+                <li class="skill">Java</li>
+                <li class="skill">SQL</li>
+                <li class="skill">NoSQL</li>
+                <li class="skill">Git</li>
+                <li class="skill">System Administration</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p><strong>Software Engineer</strong> - ABC Tech, 2020 - Present</p>
+            <ul>
+                <li>Developed and maintained web applications using React and Node.js.</li>
+                <li>Collaborated with cross-functional teams to deliver software solutions.</li>
+                <li>Optimized application performance and resolved technical issues.</li>
+            </ul>
+            <p><strong>Web Developer</strong> - XYZ Web Services, 2018 - 2020</p>
+            <ul>
+                <li>Designed and developed responsive websites using HTML, CSS, and JavaScript.</li>
+                <li>Implemented user interface improvements for a better user experience.</li>
+                <li>Ensured websites were mobile-friendly and SEO optimized.</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Science in Computer Science</strong><br> University of Techville, 2015 - 2019</p>
+        </section>
+        <section id="images">
+            <h2>Portfolio Images</h2>
+            <div class="image-container">
+                <img class="tech-image" src="/assets/llm.png" alt="Project 1" width="150px">
+                <img class="tech-image" src="/assets/ml.png" alt="Project 2" width="150px">
+                <img class="tech-image" src="/assets/devops.png" alt="Project 3" width="150px">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
