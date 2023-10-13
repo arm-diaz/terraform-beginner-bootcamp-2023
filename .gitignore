@@ -5,6 +5,8 @@
 *.tfstate
 *.tfstate.*
 
+**terraform-provider-terratowns_v1.0.0**
+
 # Crash log files
 crash.log
 crash.*.log
